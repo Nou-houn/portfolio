@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Section principale */
+.main-header {
+    background-color: #1e3a5f;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.main-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.main-header p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Section À propos de moi */
+.about-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about-content p {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Section Portfolio */
+.portfolio-section {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item h3 {
+    text-align: center;
+}
+
+/* Section Contact */
+.contact-section {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 60px 0;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section input, .contact-section textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Section principale */
+.main-header {
+    background-color: #1e3a5f;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.main-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.main-header p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Section À propos de moi */
+.about-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about-content p {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Section Portfolio */
+.portfolio-section {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item h3 {
+    text-align: center;
+}
+
+/* Section Contact */
+.contact-section {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 60px 0;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section input, .contact-section textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Transitions douces pour les boutons et les images */
+.btn, .portfolio-item img, .nav-links li a {
+    transition: all 0.3s ease;
+}
+
+/* Effet hover sur les boutons */
+.btn:hover {
+    background-color: #3e8e41;
+    transform: scale(1.05);
+}
+
+/* Effet hover sur les éléments du portfolio */
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Effet hover sur les liens de la navigation */
+.nav-links li a:hover {
+    color: #76c7c0;
+    text-decoration: underline;
+}
+/* Ombre pour les cartes de portfolio */
+.portfolio-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajout d'ombre aux sections pour plus de relief */
+section {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+/* Dégradé pour la section principale */
+.main-header {
+    background: linear-gradient(135deg, #1e3a5f, #4CAF50);
+    color: #fff;
+    text-align: center;
+    padding: 160px 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+}
